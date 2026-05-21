@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b5a8a0f-273b-497e-aa7e-325e9ef0d86e" name="Changes" comment="Creacion de interfaces (repository)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/dto/JwtResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/dto/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/security/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/security/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/security/UserDetailsServiceImpl.java" afterDir="false" />
+    <list default="true" id="0b5a8a0f-273b-497e-aa7e-325e9ef0d86e" name="Changes" comment="Configuración de capa de seguridad (JWT)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/service/AsignacionEspacioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/service/CobroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/service/ComercianteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/service/ComprobanteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/service/EspacioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/service/RolService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/service/TipoCobroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/service/TipoComercianteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/service/UsuarioService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,11 +74,19 @@
       <option name="project" value="LOCAL" />
       <updated>1779321852332</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Configuración de capa de seguridad (JWT)">
+      <created>1779322544137</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779322544137</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion de interfaces (repository)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion de interfaces (repository)" />
+    <MESSAGE value="Configuración de capa de seguridad (JWT)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuración de capa de seguridad (JWT)" />
   </component>
 </project>
