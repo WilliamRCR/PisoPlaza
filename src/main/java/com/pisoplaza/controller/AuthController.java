@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/auth")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "*")
 public class AuthController {
 
     private final AuthenticationManager authManager;
@@ -24,13 +25,26 @@ public class AuthController {
 
     @PostMapping("/login")
     public ResponseEntity<JwtResponse> login(@RequestBody LoginRequest request) {
-        authManager.authenticate(
-                new UsernamePasswordAuthenticationToken(request.getUsername(), request.getPassword())
-        );
+        try {
+            System.out.println(">>> Intentando autenticar: " + request.getUsername());
+            authManager.authenticate(
+                    new UsernamePasswordAuthenticationToken(
+                            request.getUsername(),
+                            request.getPassword()
+                    )
+            );
+            System.out.println(">>> Autenticación exitosa");
+        } catch (Exception e) {
+            System.out.println(">>> ERROR en autenticación: " + e.getMessage());
+            throw e;  // Relanza para que Spring maneje el error
+        }
+
         UserDetails userDetails = userDetailsService.loadUserByUsername(request.getUsername());
         String token = jwtUtil.generateToken(userDetails);
-
         Usuario usuario = usuarioRepository.findByUsername(request.getUsername()).orElseThrow();
-        return ResponseEntity.ok(new JwtResponse(token, usuario.getUsername(), usuario.getRol().getNombre()));
+
+        return ResponseEntity.ok(
+                new JwtResponse(token, usuario.getUsername(), usuario.getRol().getNombre())
+        );
     }
 }
