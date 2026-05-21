@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/asignacionespacios")
+@RequestMapping("/api/asignaciones")
 @RequiredArgsConstructor
 public class AsignacionEspacioController {
     private final AsignacionEspacioService service;

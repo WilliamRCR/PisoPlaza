@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b5a8a0f-273b-497e-aa7e-325e9ef0d86e" name="Changes" comment="Configuración de seguridad con JWT">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/controller/AsignacionEspacioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/controller/CobroController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/controller/ComercianteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/controller/ComprobanteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/controller/EspacioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/controller/TipoCobroController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/controller/TipoComercianteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/controller/UsuarioController.java" afterDir="false" />
+    <list default="true" id="0b5a8a0f-273b-497e-aa7e-325e9ef0d86e" name="Changes" comment="Añadida capa de controladores">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pisoplaza/controller/AsignacionEspacioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/controller/AsignacionEspacioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +87,33 @@
       <option name="project" value="LOCAL" />
       <updated>1779387080730</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Añadida capa de controladores">
+      <created>1779396362396</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779396362396</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion de interfaces (repository)" />
     <MESSAGE value="Configuración de capa de seguridad (JWT)" />
     <MESSAGE value="Configuración de capa de servicios" />
     <MESSAGE value="Configuración de seguridad con JWT" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuración de seguridad con JWT" />
+    <MESSAGE value="Añadida capa de controladores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadida capa de controladores" />
   </component>
 </project>
