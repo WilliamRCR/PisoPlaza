@@ -4,33 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b5a8a0f-273b-497e-aa7e-325e9ef0d86e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/MercadoJalapaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/model/AsignacionEspacio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/model/Cobro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/model/Comerciante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/model/Comprobante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/model/Espacio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/model/Rol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/model/TipoCobro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/model/TipoComerciante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/model/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/repository/AsignacionEspacioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/repository/CobroRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/repository/ComercianteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/repository/EspacioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/repository/RolRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/repository/TipoCobroRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/repository/TipoComercianteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="0b5a8a0f-273b-497e-aa7e-325e9ef0d86e" name="Changes" comment="Creacion de interfaces (repository)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/dto/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/dto/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/security/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/security/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pisoplaza/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -82,6 +63,18 @@
       <option name="presentableId" value="Default" />
       <updated>1779314224271</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creacion de interfaces (repository)">
+      <created>1779321852332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779321852332</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creacion de interfaces (repository)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion de interfaces (repository)" />
   </component>
 </project>
